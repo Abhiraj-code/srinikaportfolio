@@ -10,9 +10,13 @@
 
 @font-face {
     font-family: 'Brittney';
-    src: url('fonts/BrittneyScript.ttf') format('truetype');
+    src: url('./BrittneyScript.ttf') format('truetype');
 }
 
+@font-face{
+    font-family: "Poppins";
+    src: url('./poppins.black.tff') format('truetype');
+}
 
 :root {
     --bg-color: #080808;
@@ -209,7 +213,7 @@ section{
 
 @font-face {
     font-family: 'Crakest';
-    src: url('fonts/craketest-bold.otf') format('opentype');
+    src: url('./craketest-bold.otf') format('opentype');
 }
 
 .name{
